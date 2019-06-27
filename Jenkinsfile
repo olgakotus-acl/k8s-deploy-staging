@@ -80,7 +80,7 @@ pipeline {
     */
     
     // DO NOT uncomment until 10_01 Lab
-    /*
+    
     stage('Staging Warm Up') {
       steps {
         echo "Waiting for the service to start..."
@@ -159,6 +159,6 @@ pipeline {
         )
       }
     }
-    */
+    
   }
 }
